@@ -1,0 +1,24 @@
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    color: white;
+    height: 60%;
+    justify-content: space-between;
+  }
+  
+  .activeUserLists{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50%;
+  }
+  
+  .textContainer h2 {
+    margin-bottom: 0px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 1200px) {
+    .textContainer {
+      display: none;
+    }
+  }
